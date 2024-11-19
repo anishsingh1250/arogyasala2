@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+  background-image: url(Healthcare\ Excellence.jpg);
+  background-position:calc(0px);
+  background-size:cover;
+  background-position-x:inherit;
+  color: rgb(0, 0, 0);
+}
+body{
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+img{
+  height: 125px;
+  width: 125px;
+  margin-left: 60px;
+ }
+ #a{
+  font-size:4rem;
+  color: rgb(237, 76, 17);
+ }
+#logo:first-child{
+  font-size: 3rem;
+  color: rgb(247, 104, 53);
+  text-shadow: 4px -7px 6px #170909;
+  margin-top: 18px;
+  margin-left: 10px;
+ }
+.left{
+  display: flex;
+  text-decoration: underline;
+}
+.right{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+#right{
+    margin-right: 10px;
+}
+nav li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+nav li a:hover{
+  color: blue;
+}
+
+#search0{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  margin-top: 10px;
+}
+#head{
+  color: rgb(170, 11, 104);
+  font: bold;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+.search1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search{
+ width: max-content;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ padding: 18px;
+ border-radius: 28cm;
+ background-color: #91bae9;
+ margin-left: 517px;
+ margin-top: 20px;
+}
+.searchinput{
+  font-size: 16px;
+  font-weight: solid;
+  font-family: legend, sans-serif;
+  margin-left:14px;
+  background-color:  #91bae9;
+  color: white;
+  outline: none;
+  border: none;
+}
+.searchinput::placeholder{
+  color: #170909;
+}
+button{
+  background-color:  transparent;
+  height: 50px;
+  width: 100px;
+  border-radius: 15cm;
+  border-color: transparent;
+  background-color: rgb(94, 139, 176);
+}
+button:hover{
+  background-color: rgb(74, 149, 211);
+  color: aliceblue;
+  transition: 0.3s ease-in-out;
+  text-decoration: solid;
+}
+.firstsection{
+  display: flex;
+}
+.leftsection1{
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 10px;
+}
+/* Services Section */
+#services {
+  padding: 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service-item {
+  flex-basis: 30%;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+#secondsection{
+  display: flex;
+}
+#leftsection{
+  width: 12%;
+  margin:9px 0 0 155px;
+  font-size:x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url(pngegg\ \(5\).png);
+}
+#o{
+  font-size: xx-large;
+  color: #810869;
+  font-size: 3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+#doc{
+  height: 100%;
+  width: 90%;
+}  
+
+
+#foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(59, 74, 90);
+  color: rgb(212, 212, 200);
+  box-sizing: border-box;
+}
+
